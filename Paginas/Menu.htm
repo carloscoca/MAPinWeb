@@ -1,0 +1,236 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="Anfy" content="">
+<title>Menu</title>
+</head><body bgcolor="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<p> 
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100%" height="110">
+    <param name="movie" value="../Flash/Pensador.swf">
+    <param name="quality" value="high">
+    <embed src="../Flash/Pensador.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100%" height="110"></embed></object>
+</p>
+<p>&nbsp; </p>
+<p>
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100%" height="260">
+    <param name="movie" value="../Flash/Menu.swf">
+    <param name="quality" value="high">
+    <embed src="../Flash/Menu.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100%" height="260"></embed></object>
+</p>
+
+
+<SCRIPT language=JavaScript1.2>
+
+
+var bDoesDHTML = ( (navigator.userAgent.indexOf("MSIE") >= 0) &&
+
+                   (navigator.appVersion.substring(0,1) >= 4) )
+
+if(bDoesDHTML){document.write("<STYLE>.off{display:none}</STYLE>")}
+
+
+function Corte(secNum){
+
+  if (bDoesDHTML){
+
+    if (secNum.className=="off"){secNum.className="on"} 
+
+    else{secNum.className="off"}
+
+  }
+
+}
+
+
+var Mensaje = "Bienvenido a la Universidad Técnica Privada de Santa Cruz";
+
+
+
+var sitio=1;
+
+
+
+function scrollIn() {
+
+	window.status=Mensaje.substring(0, sitio);
+
+	if (sitio >= Mensaje.length) {
+
+		sitio=1;
+
+		window.setTimeout("scrollOut()",400); 
+
+	} else {
+
+		sitio++;
+
+		window.setTimeout("scrollIn()",75); 
+
+		}
+
+	}
+
+function scrollOut() {
+
+	window.status=Mensaje.substring(sitio, Mensaje.length);
+
+	if (sitio >= Mensaje.length) {
+
+		sitio=1;
+
+		window.setTimeout("scrollIn()", 150);
+
+	} else {
+
+		sitio++;
+
+		window.setTimeout("scrollOut()", 75);
+
+		}
+
+	} 
+
+	
+
+	
+
+
+
+
+
+var current = 0
+
+var x = 0
+
+var speed = 50
+
+var speed2 = 3000
+
+
+
+function initArray(n) {
+
+  this.length = n;
+
+  for (var i =1; i <= n; i++) {
+
+    this[i] = ' '
+
+  }
+
+}
+
+
+
+typ = new initArray(11)
+
+typ[0]  ="• Bienvenido Al Map de la materia (Desarrollo de Aplicaciones para Internet I ...."
+
+typ[1]  ="• UTEPSA Universidad Técnica Privada de Santa Cruz de la Sierra :)"
+
+typ[2]  ="• Estudia en la UTEPSA y lograrás conquistar el mundo laboral  ;)"
+
+typ[3]  ="• Entérate en que consiste este Módulo....."
+
+typ[4]  ="• Maneja el código Binario"
+
+typ[5]  ="• Crea tu propia página, el límite: tu imaginación"
+
+typ[6]  ="• Cuidate de los Delitos Informáticos"
+
+typ[7]  ="• Crea tu propia cuenta de correo electrónico"
+
+typ[8]  ="• Maneja editores de página WEB"
+
+typ[9]  ="• Warning: No te enredes en la gran Telaraña"
+
+typ[10] ="• Ten cuidado con los Hacker, no hacen más que molestar  {8-)"
+
+
+
+function typewrite() {
+
+var m = typ[current]
+
+
+
+window.status = m.substring(0, x++) + "•"
+
+
+
+if (x == m.length + 1) {
+
+x = 0
+
+current++
+
+
+
+if (current > typ.length - 1) {
+
+current = 0
+
+}
+
+
+
+setTimeout("typewrite()", speed2)
+
+}
+
+
+
+else {
+
+setTimeout("typewrite()", speed)
+
+}
+
+}
+
+
+
+typewrite()
+
+
+
+
+
+function makeArray(m)
+
+{
+
+  this.length = m;
+
+  for (i=1;i<=m;i++)
+
+  {
+
+    this[i]=0;
+
+  }
+
+  return this;
+
+}
+
+</SCRIPT>
+
+<SCRIPT language=JavaScript>
+
+<body bgcolor="#000000" text="#FFFF22" link="#5FFF5F" vlink="#553AEB" alink="#FF8000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<div align="center"> 
+  <h5 align="left"> 
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="265" height="110">
+      <param name="movie" value="../Flash/Pensador.swf">
+      <param name="quality" value="high">
+      <embed src="../Flash/Pensador.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="265" height="110"></embed></object>
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100%" height="400">
+      <param name="movie" value="file:///C|/Documents%20and%20Settings/Administrator/My%20Documents/Macromedia%20Flash%20MX/El%20Map%20en%20la%20Web/Desarrollo%20de%20Aplicaciones%20de%20Internet/f%E1brica/Menu.swf">
+      <param name="quality" value="high">
+      <embed src="file:///C|/Documents%20and%20Settings/Administrator/My%20Documents/Macromedia%20Flash%20MX/El%20Map%20en%20la%20Web/Desarrollo%20de%20Aplicaciones%20de%20Internet/f%E1brica/Menu.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100%" height="400"></embed></object>
+  </h5>
+  </div>
+</body>
+</html>
