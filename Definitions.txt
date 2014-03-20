@@ -3,4 +3,4 @@ Config Definition inside Text File
 
 That's working!!
 
-An very well, now we have to use Gitk
+An very well, now we have to use Gitk and SourceTree

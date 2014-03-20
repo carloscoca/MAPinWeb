@@ -1,1 +1,6 @@
 Parameter inside the Projects
+
+<inline>
+<outline>
+<filesShared>
+<commties>
