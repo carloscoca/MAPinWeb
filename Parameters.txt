@@ -6,4 +6,5 @@ Parameter inside the Projects
 <commties>
 <sure>
 <node.js>
-<HOTFix>
+<*.txt|*.doc|*.xls>
+<iss53>
