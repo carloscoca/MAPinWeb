@@ -6,3 +6,4 @@ Parameter inside the Projects
 <commties>
 <sure>
 <node.js>
+<*.txt|*.doc|*.xls>
