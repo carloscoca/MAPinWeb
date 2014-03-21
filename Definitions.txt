@@ -15,3 +15,5 @@ now we have to use Gitk and SourceTree
 
 on Branch Testing
 normal working with all changes on Master!!!
+
+FIX THE HOTFIX !!!!
